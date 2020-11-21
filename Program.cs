@@ -23,7 +23,7 @@ namespace KDatingApp
             {
                 var context = services.GetRequiredService<DataContext>();
                 await context.Database.MigrateAsync();
-             //   await Seed.SeedUsers(context);
+                await Seed.SeedUsers(context);
             }
             catch (Exception ex)
             {
@@ -33,6 +33,7 @@ namespace KDatingApp
 
             await host.RunAsync();
         }
+
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)

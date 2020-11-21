@@ -62,3 +62,5 @@ B:\asp.net\KDatingApp\KDatingApp\bin\Debug\netcoreapp3.1\AutoMapper.dll
 B:\asp.net\KDatingApp\KDatingApp\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 B:\asp.net\KDatingApp\KDatingApp\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
 B:\asp.net\KDatingApp\KDatingApp\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+B:\asp.net\kdatingapp\kdatingapp\bin\Debug\netcoreapp3.1\UserSeedData.json
+B:\asp.net\KDatingApp\KDatingApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json

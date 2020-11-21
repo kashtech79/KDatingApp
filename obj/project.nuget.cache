@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nn7HMO/mzdGlqeI2ULomj+KHY0mPoS74Va46mVKJxiq8Ta6oiGmkBmkhwvHSqn3GwOJ77u9DtDoPYPyEsTD8bg==",
+  "dgSpecHash": "s52LQ7rl/22xQEJSMYRARcz3P8Hr5+lNdrIZZGVVu39dOAKzNGhk7MjOgGtUwWnSMtSriC1L67iLk1xJ0lg2Vw==",
   "success": true,
-  "projectFilePath": "B:\\asp.net\\kdatingapp\\kdatingapp\\API.csproj",
+  "projectFilePath": "B:\\asp.net\\KDatingApp\\KDatingApp\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\The Kash\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\The Kash\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
@@ -106,9 +106,7 @@
     "C:\\Users\\The Kash\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\The Kash\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\The Kash\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\The Kash\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\The Kash\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
-    "C:\\Users\\The Kash\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.7\\microsoft.netcore.app.host.win-x64.3.1.7.nupkg.sha512"
+    "C:\\Users\\The Kash\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

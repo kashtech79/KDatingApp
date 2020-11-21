@@ -14,30 +14,35 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
+    [Authorize]
 
     public class UsersController : BaseApiController
     {
-        private readonly DataContext context;
-        public UsersController(DataContext context)
-        {
-            this.context = context;
+        
+        private readonly IUserRepository userRepository;
+        private readonly IMapper mapper;
 
+        public UsersController(IUserRepository userRepository, IMapper mapper)
+        {
+            this.userRepository = userRepository;
+            this.mapper = mapper;
         }
 
         [HttpGet]
-        [AllowAnonymous]
-        public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
+      
+        public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
         {
-            return await this.context.Users.ToListAsync();
+            var users = await this.userRepository.GetUsersAsync();
+            var usersToReturn = this.mapper.Map<IEnumerable<MemberDto>>(users);
+            return Ok(usersToReturn);
         }
 
-        [Authorize]
-        [HttpGet("{id}")]
-        public async Task<ActionResult<AppUser>> GetUser(int id)
+      
+        [HttpGet("{username}")]
+        public async Task<ActionResult<MemberDto>> GetUser(string username)
         {
-            return await this.context.Users.FindAsync(id);
+            var user = await this.userRepository.GetUserByUsernameAsync(username);
+            return this.mapper.Map<MemberDto>(user);
         }
     }
 }
